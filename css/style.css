@@ -1,0 +1,16 @@
+.list-inline-item a {
+
+	text-decoration: none;
+	display: inline-block;
+    list-style: none;
+    padding: 5px;
+    margin: 8px 4px;
+    border-radius: 25px;
+    border: 1px solid #1ebef0;
+    color: #1ebef0;
+    font-family: sans-serif;
+}
+
+
+
+

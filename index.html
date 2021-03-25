@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Doctor Search</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+</head>
+<body style="background-color:  #f8f8ff;" >
+    
+	<nav class="navbar navbar-expand-lg navbar-light bg-light mb-3 sticky-top">
+      <div class="container">
+		
+		<label class="navbar-brand text-success" style="font-weight: bold;"><i class="fas fa-user-md"></i>Doctor Search <i class="fas fa-search"></i></li></label>
+
+    
+        <ul class="navbar-nav"> 
+		<li class="nav-item"><a class="btn btn-outline-success" href="register.html"  style="text-decoration: none;">SignUp</a></li>
+        <li class="nav-items"><a class="btn btn-outline-primary" href="log-in.html"  style="text-decoration: none;">LogIn</a></li>
+        </div>  
+        </ul>
+        
+      </div>  
+	</nav>
+
+
+	<div class="container">
+		<form>
+            <div class="form-group">
+                <label>Name</label>
+			   <input id="searchInput" class="form-control" type="text" name="" placeholder="Search By Name">
+               
+            </div>
+            <ul id="list" class="list-group"></ul> 
+             <div class="form-group"> 
+               <label >Speciality</label>
+			   <select class="form-control">
+                 <option id="dentist">Dentist</option>
+                 <option>Gynecologist</option>
+                 <option>Physiotherapist</option>
+                 <option>Cardiologist</option>
+                 <option>Neurologist</option>
+                 <option>Urologist</option>
+               </select>
+             </div>
+             <div class="form-group">
+                <label>City</label>
+			   <input class="form-control" type="text" name="" placeholder="Enter city">
+            </div>
+            <div class="form-group">
+            <label>State</label>    
+			<input class="form-control" type="text" name=""
+			placeholder="Enter State">
+            </div>
+            <div class="form-group">
+			<button id="searchBar" class="form-control btn-primary mt-3" id="searchSpeciality">Search</button>
+            </div>
+		</form>
+	</div>
+   <br> 
+    <div class="container">  
+    <div class="row">
+    <!-- <div class="col-sm-6 bg-light" style="border:1px solid #333 padding:10px; ">     -->
+     <div class="col-sm-6 bg-light mb-3 ">      
+    <p style="font-family: sans-serif; margin: 2px; padding: 10px; background-color:white">Top Doctor specialities</p>
+     <ul class="list-unstyled list-inline" style="background-color:white">
+     	<li class="list-inline-item"><a href="dentist.html" class="btn-outline-primary">Dentist</a></li>
+     	<li class="list-inline-item"><a href="gynecologist.html" class="btn-outline-primary">Gynecologist</a></li>
+     	<li class="list-inline-item"><a href="physiotherapist.html" class="btn-outline-primary">Physiotherapist</a> </li>
+        <li class="list-inline-item"><a href="cardiologist.html" class="btn-outline-primary">Cardiologist</a>  </li>
+     	<li class="list-inline-item"><a href="neurologist.html" class="btn-outline-primary">  Neurologist</a></li>
+     	<!-- <li class="list-inline-item"><a href="urologist.html" class="btn-outline-primary">Urologist</a></li>
+     	 -->
+     </ul>
+    </div> 	
+    </div>  
+    </div>   
+ 
+
+  <div class="container">
+    <div class="lead ">
+    	<h4 style="font-size:bold ">Feedback</h4>
+    	
+    	<h6 >Doctor Name</h6>	
+        <p >
+    		Got micro needling treatment done and there were no side effects at all! Had to take few medications but that were just to prevent any discomfort and negative after effects. Very happy with the results.
+    	</p>
+    	<h6>Patient Name</h6>
+
+    </div>
+   <div> 
+
+    <div class="media">
+         <h4>News and Advice</h4>
+    	<img src="images/corona.jpg" style="width: 100%;
+  height: auto;">
+    <div class="jumbotron">
+      
+    	<h5 class="display-6 mt-2">HOW TO PROTECT YOURSELF AND OTHERS FROM CORONA</h5>
+
+     <p class="lead text-center">Wash your hands often with soap and water for at least 20 seconds, especially after being in a public place, or after blowing your nose, coughing or sneezing.If soap and water are not readily available, use a hand sanitizer with at least 60% alcohol.Avoid touching your eyes, nose and mouth with unwashed hands.</p> <!-- <a class="btn btn-primary btn-lg mb-3 float-center" href="#">Read more...</a> -->
+    </div>
+    </div>
+    <div>
+    	<h4>Healthy Living Newsletter</h4>
+    	<form class="input-group text-center">
+         <div>  
+    		<input class="form-control" type="text" name="" placeholder="you@email.com">
+          </div>  
+    		<button class="btn btn-outline-secondary">Sign me up!</button>
+
+    	</form>
+    </div>
+    <br>
+    <footer>
+  
+    <label class="navbar-brand text-success " style="font-weight: bold;"><i class="fas fa-user-md"></i>Doctor Search <i class="fas fa-search"></i></label>
+    <div class="list-unstyled text-center">
+    	<h6><a href="about.html" class="text-dark" style="text-decoration: none;">ABOUT</a></h6>
+    	<h6><a href="contact.html" class="text-dark" style="text-decoration: none;">Contact Us</a></h6>
+    
+    </div>
+
+    <h8 class='text-success d text-center'>Copyright <i class="far fa-copyright"></i> 2021 Doctor Search.All rights reserved</h8>
+    	
+    </footer>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+
+<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="JS/search.js"></script>
+
+</body>
+</html>
